@@ -8,3 +8,6 @@ Here are some problems I found solutions to
 
 ### Get current pos of object
 https://bit.ly/2Jh7eQZ
+
+### Ignoring files (gitignore
+https://docs.github.com/en/free-pro-team@latest/github/using-git/ignoring-files
