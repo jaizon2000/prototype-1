@@ -9,5 +9,7 @@ Here are some problems I found solutions to
 ### Get current pos of object
 https://bit.ly/2Jh7eQZ
 
-### Ignoring files (gitignore
+### Ignoring files (gitignore)
 https://docs.github.com/en/free-pro-team@latest/github/using-git/ignoring-files
+
+https://stackoverflow.com/questions/1274057/how-to-make-git-forget-about-a-file-that-was-tracked-but-is-now-in-gitignore
