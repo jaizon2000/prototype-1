@@ -5,12 +5,12 @@ using UnityEngine;
 public class FollowScript : MonoBehaviour
 {
     public GameObject player;
-    private Vector3 initialPos;
+    public Vector3 CurrentCameraPos;
 
     // Start is called before the first frame update
     void Start()
     {
-        initialPos = transform.position;
+        CurrentCameraPos = transform.position;
     }
 
 // Update is called once per frame
@@ -18,6 +18,6 @@ public class FollowScript : MonoBehaviour
     {
         // Camera follows vehicle
         // transform.position = player.transform.position + new Vector3(0, 5, -11);
-        transform.position = player.transform.position + initialPos;
+        transform.position = player.transform.position + CurrentCameraPos;
     }
 }
