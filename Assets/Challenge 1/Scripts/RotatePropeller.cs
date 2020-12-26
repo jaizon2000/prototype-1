@@ -13,6 +13,8 @@ public class RotatePropeller : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        // Make sure lowercase 't' on transform
+        // 't' refers to current GameObject
+        transform.Rotate(Vector3.forward);
     }
 }
