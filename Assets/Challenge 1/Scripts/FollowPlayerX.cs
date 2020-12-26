@@ -5,17 +5,19 @@ using UnityEngine;
 public class FollowPlayerX : MonoBehaviour
 {
     public GameObject plane;
-    private Vector3 offset;
+    public Vector3 currentCameraPos;
 
     // Start is called before the first frame update
     void Start()
     {
-
+        // make current pos of camera == currentCameraPos
+        currentCameraPos = transform.position;
     }
 
     // Update is called once per frame
     void Update()
     {
-        transform.position = plane.transform.position + offset;
+        // Camera follows vehicle
+        transform.position = plane.transform.position + currentCameraPos;
     }
 }
